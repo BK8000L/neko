@@ -1,9 +1,9 @@
 {
   "policies": {
     "BlockAboutAddons": false,
-    "BlockAboutConfig": true,
-    "BlockAboutProfiles": true,
-    "BlockAboutSupport": true,
+    "BlockAboutConfig": false,
+    "BlockAboutProfiles": false,
+    "BlockAboutSupport": false,
     "Bookmarks": [
       {
         "Title": "IPLeak",
@@ -53,9 +53,6 @@
       "Value": true
     },
     "ExtensionSettings": {
-      "*": {
-        "installation_mode": "blocked"
-      },
       "sponsorBlocker@ajay.app": {
         "install_url": "https://addons.mozilla.org/firefox/downloads/latest/sponsorblock/latest.xpi",
         "installation_mode": "force_installed"
